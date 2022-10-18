@@ -12,12 +12,11 @@ const Cart = () => {
   const [total, setTotal] = useState();
 
   useEffect(() => {
-    // console.log('cart', cart)
+    console.log('cart', cart)
     setTotal(
       cart.reduce((acc, curr) => acc + Number(curr.price) * curr.qty, 0)
     );
-  }, [cart]);
-                       
+  }, [cart]);                       
  
   return (
     <div className="home">
