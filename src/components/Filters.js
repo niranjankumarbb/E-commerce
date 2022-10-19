@@ -96,7 +96,7 @@ const Filters = () => {
           })
         }
       >
-        Clear Filters
+         Clear Filters
       </Button>
     </div>
   );
